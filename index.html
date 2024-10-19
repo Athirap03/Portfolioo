@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATHIRA P - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section (Add a brief introduction about yourself here) -->
+  <section id="home">
+    <h1>ATHIRA P</h1>
+    <!-- Replace 'your-' with your actual image file name -->
+    <img src="athira photonew.jpg" alt="Your Photo" class="profile-photo">
+
+    <p>Welcome to my portfolio. I am a software developer specializing in AI/ML.</p>
+    <!-- You can add more brief introduction text about yourself here -->
+    <p>I love creating efficient solutions and exploring new technologies.</p>
+  </section>
+
+  <!-- About Section (Add more detailed information about yourself here) -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>A highly motivated MCA student with a strong foundation in data analysis and machine learning.</p>
+    <!-- List your skills -->
+    <ul>
+      <li>Skills: C, Python, Java, SQL, AI/ML, Web Development</li>
+      <li>Interests: Data Science, Software Engineering, Machine Learning</li>
+    </ul>
+    <!-- You can add more details about your education, hobbies, or experiences here -->
+    <p>In my free time, I enjoy reading about advancements in AI, learning new programming languages, and building side projects.</p>
+  </section>
+
+  <!-- Projects Section (Showcase your projects here) -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Sales Forecasting</h3>
+      <p>This project focuses on building an AI/ML model to predict retail sales using historical data for improved inventory management.</p>
+      <a href="https://github.com/Snikakrishna/sales_forecasting">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Movie recommendation Engine</h3>
+      <p>Created a movie recommentation engine that suggests personalized films based on user preferences and viewing history.</p>
+      <a href="https://github.com/Snikakrishna/Movie-recommendation-engine">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Chatbot Development with Watson Assistant</h3>
+      <p>A Design,implementation,and evaluaation of a sophisticated chatbot that utilizes NLP techniques to interpret user queries and generate appropriate responses.</p>
+      <a href="https://github.com/Snikakrishna/AI-Internship">View Project</a>
+    </div>
+    <!-- Add more projects here if necessary -->
+  </section>
+
+  <!-- Contact Section (Simple form to collect user details) -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" required></textarea>
+      
+      <button type="submit">Submit</button>
+    </form>
+    <p id="thank-you-message" style="display:none;">Thank you for reaching out!</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
